@@ -2,12 +2,23 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Document</title>
+        <title>Punto 3</title>
+        <script src="../js/punto3.js"></script>
     </head>
     <body>
         <div>
-            <a href="../index.html">Volver al inicio</a>
+            <a href="../index.html">
+                <button>Volver al inicio</button>
+            </a>
         </div>
-        <script src="js/punto3.js"></script>
+        <div>
+            <h2>Punto 3:</h2>
+            <input type="text" id="nombre" placeholder="Nombre:"><br>
+            <input type="text" id="edad" placeholder="Edad:"><br><br>
+            <button onclick="nombreEdad()">Calcular</button>
+        </div>
+        <div>
+            <p id="resultado"></p>
+        </div>
     </body>
 </html>
