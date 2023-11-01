@@ -2,13 +2,29 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Document</title>
-        <link rel="stylesheet" href="css/punto4.css">
+        <title>Punto 4</title>
+        <link rel="stylesheet" href="../css/punto4.css">
+        <script src="../js/punto4.js"></script>
     </head>
     <body>
         <div>
-            <a href="../index.html">Volver al inicio</a>
+            <a href="../index.html">
+                <button>Volver al inicio</button>
+            </a>
         </div>
-        <script src="js/punto4.js"></script>
+        <div>
+            <h2>Punto 4:</h2>
+            <input type="text" id="nombre" placeholder="Nombre:"><br><br>
+            <input type="text" id="materia" placeholder="Materia:"><br><br>
+            <input type="text" id="nota1" placeholder="Nota 1:"><br><br>
+            <input type="text" id="nota2" placeholder="Nota 2:"><br><br>
+            <input type="text" id="nota3" placeholder="Nota 3:"><br><br>
+            <button onclick="notas()">Calcular</button>
+        </div>
+        <div>
+            <p>
+                <span id="texto1Resultado"></span><span id="notaResultado"></span><span id="texto2Resultado"></span>
+            </p>
+        </div>
     </body>
 </html>
